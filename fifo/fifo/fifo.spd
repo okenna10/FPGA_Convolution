@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="fifo_1910/sim/fifo_fifo_1910_kp32l7y.v"
+   type="VERILOG"
+   library="fifo_1910" />
+ <file
+   path="sim/fifo.v"
+   type="VERILOG"
+   library="fifo"
+   hasInlineConfiguration="true" />
+ <topLevel name="fifo.fifo" />
+ <deviceFamily name="arria10" />
+</simPackage>

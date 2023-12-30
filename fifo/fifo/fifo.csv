@@ -1,0 +1,18 @@
+# system info fifo on 2023.12.23.21:30:35
+system_info:
+name,value
+DEVICE,10AX115H1F34I1SG
+DEVICE_FAMILY,Arria 10
+GENERATION_ID,0
+#
+#
+# Files generated for fifo on 2023.12.23.21:30:35
+files:
+filepath,kind,attributes,module,is_top
+sim/fifo.v,VERILOG,CONTAINS_INLINE_CONFIGURATION,fifo,true
+fifo_1910/sim/fifo_fifo_1910_kp32l7y.v,VERILOG,,fifo_fifo_1910_kp32l7y,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+fifo.fifo_0,fifo_fifo_1910_kp32l7y

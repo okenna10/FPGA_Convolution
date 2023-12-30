@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/noo8/Downloads/reconfig/fpga
+vfifo_fifo_1910_2tqacay
+!s110 1703359104
+!i10b 1
+!s100 ekC3`^bk3lZL3H>ShOI?11
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQ_jjCHCk0Q=Oj_IlC`>f52
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1703286693
+8fifo/fifo/fifo_1910/sim/fifo_fifo_1910_2tqacay.v
+Ffifo/fifo/fifo_1910/sim/fifo_fifo_1910_2tqacay.v
+!i122 7
+Z3 L0 18 59
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1703359104.000000
+!s107 fifo/fifo/fifo_1910/sim/fifo_fifo_1910_2tqacay.v|
+!s90 -reportprogress|300|fifo/fifo/fifo_1910/sim/fifo_fifo_1910_2tqacay.v|-work|fifo_1910|
+!i113 1
+Z5 o-work fifo_1910
+Z6 tCvgOpt 0
+vfifo_fifo_1910_kp32l7y
+!s110 1703634618
+!i10b 1
+!s100 @h^od=5hU5DR?AMFQ>@1S1
+R1
+I<az0cMUo;`7>Zimj2fOSc0
+R2
+dC:/Users/oknat/Documents/Cornell_Tech/Reconfig_computing/fpga
+w1703390736
+8fifo/fifo/fifo_1910/sim/fifo_fifo_1910_kp32l7y.v
+Ffifo/fifo/fifo_1910/sim/fifo_fifo_1910_kp32l7y.v
+!i122 15
+R3
+R4
+r1
+!s85 0
+31
+!s108 1703634617.000000
+!s107 fifo/fifo/fifo_1910/sim/fifo_fifo_1910_kp32l7y.v|
+!s90 -reportprogress|300|fifo/fifo/fifo_1910/sim/fifo_fifo_1910_kp32l7y.v|-work|fifo_1910|
+!i113 1
+R5
+R6

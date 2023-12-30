@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/noo8/Downloads/reconfig/fpga
+vlab2
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1703652806
+!i10b 1
+!s100 U0;BE35zL0G0>6dVUc7a81
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IK8zWV>Q8?F<SzGiKQDO8l0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dC:/Users/oknat/Documents/Cornell_Tech/Reconfig_computing/fpga
+w1703652801
+8lab2.sv
+Flab2.sv
+!i122 137
+L0 7 242
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1703652806.000000
+!s107 lab2.sv|
+!s90 -reportprogress|300|lab2.sv|
+!i113 1
+Z5 tCvgOpt 0
+vlab2_tb
+R0
+!s110 1703652722
+!i10b 1
+!s100 GmfjgHCRoo0;62_]E_]eW3
+R1
+IWF[R[YTD2^8>142[V_V@V2
+R2
+S1
+R3
+w1703652717
+8lab2_tb.sv
+Flab2_tb.sv
+!i122 134
+L0 3 373
+R4
+r1
+!s85 0
+31
+!s108 1703652722.000000
+!s107 lab2_tb.sv|
+!s90 -reportprogress|300|lab2_tb.sv|
+!i113 1
+R5
+vtb
+R0
+!s110 1703634618
+!i10b 1
+!s100 6MXl<3JJoNH5Md:O82HTK1
+R1
+IBc6Q1Zmcm;9m4Fb5MVIXL0
+R2
+S1
+R3
+w1703633144
+8testbench.sv
+Ftestbench.sv
+!i122 87
+L0 3 83
+R4
+r1
+!s85 0
+31
+!s108 1703634618.000000
+!s107 testbench.sv|
+!s90 -reportprogress|300|-work|work|testbench.sv|
+!i113 1
+o-work work
+R5
