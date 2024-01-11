@@ -9,3 +9,6 @@ This project will take image pixels streamed from left to right one pixel at a t
 ## The Architecture
 ![image](https://github.com/okenna10/FPGA_exponential_function/assets/101345398/d01cad58-57e5-4992-a193-2fd2a806bd39)
 
+## Note
+This code was written as part of an assignment at Cornell Tech and the shell code was provided by Professor Dr Mohamed Abdelfattah
+
