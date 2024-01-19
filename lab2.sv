@@ -96,8 +96,7 @@ always_ff @ (posedge clk) begin
 		current_state <= next_state;
 	
 	i_valid_r <= i_valid;
-	x 		  <= i_x;
-	//ready	  <= i_ready;
+	x 	  <= i_x;
 end
 
 always_comb begin
@@ -158,40 +157,40 @@ end
 fifo fifo_1 (
 		.data  (x),         		//   input,  width = 8,  fifo_input.datain
 		.wrreq (i_valid_r), 		//   input,  width = 1,            .wrreq
-		.rdreq (rd[0] && i_ready),  //   input,  width = 1,            .rdreq
+		.rdreq (rd[0] && i_ready),  	//   input,  width = 1,            .rdreq
 		.clock (clk),       		//   input,  width = 1,            .clk
 		.sclr  (reset),     		//   input,  width = 1,            .sclr
         //Outputs
-		.q     (fifo1_out), //  output,  width = 8, fifo_output.dataout
-		.usedw (used_wd1),  //  output,  width = 9,            .usedw
-		.full  (full[0]),   //  output,  width = 1,            .full
-		.empty (empty[0])   //  output,  width = 1,            .empty
+		.q     (fifo1_out), 		//  output,  width = 8, fifo_output.dataout
+		.usedw (used_wd1),  		//  output,  width = 9,            .usedw
+		.full  (full[0]),   		//  output,  width = 1,            .full
+		.empty (empty[0])   		//  output,  width = 1,            .empty
 	);
 
 fifo fifo_2 (
 		.data  (stage1_2),         //   input,  width = 8,  fifo_input.datain
-		.wrreq (wr[0]), 		   //   input,  width = 1,            .wrreq
+		.wrreq (wr[0]), 	   // input,  width = 1,            .wrreq
 		.rdreq (rd[1] && i_ready), //   input,  width = 1,            .rdreq
 		.clock (clk),       	   //   input,  width = 1,            .clk
 		.sclr  (reset),     	   //   input,  width = 1,            .sclr
         //Outputs
-		.q     (fifo2_out), //  output,  width = 8, fifo_output.dataout
-		.usedw (used_wd2),  //  output,  width = 9,            .usedw
-		.full  (full[1]),   //  output,  width = 1,            .full
-		.empty (empty[1])   //  output,  width = 1,            .empty
+		.q     (fifo2_out), 	   //  output,  width = 8, fifo_output.dataout
+		.usedw (used_wd2),  	   //  output,  width = 9,            .usedw
+		.full  (full[1]),   	   //  output,  width = 1,            .full
+		.empty (empty[1])   	   //  output,  width = 1,            .empty
 	);
 
 fifo fifo_3 (
 		.data  (stage2_2),          //   input,  width = 8,  fifo_input.datain
-		.wrreq (wr[1]), 		    //   input,  width = 1,            .wrreq
+		.wrreq (wr[1]), 	    //   input,  width = 1,            .wrreq
 		.rdreq (rd[2] && i_ready),  //   input,  width = 1,            .rdreq
-		.clock (clk),       		//   input,  width = 1,            .clk
-		.sclr  (reset),     		//   input,  width = 1,            .sclr
+		.clock (clk),       	    //   input,  width = 1,            .clk
+		.sclr  (reset),     	    //   input,  width = 1,            .sclr
         //Outputs
-		.q     (fifo3_out), //  output,  width = 8, fifo_output.dataout
-		.usedw (used_wd3),  //  output,  width = 9,            .usedw
-		.full  (full[2]),   //  output,  width = 1,            .full
-		.empty (empty[2])   //  output,  width = 1,            .empty
+		.q     (fifo3_out), 	   //  output,  width = 8, fifo_output.dataout
+		.usedw (used_wd3),         //  output,  width = 9,            .usedw
+		.full  (full[2]),          //  output,  width = 1,            .full
+		.empty (empty[2])          //  output,  width = 1,            .empty
 	);
 
 always_ff @(posedge clk) begin
@@ -234,7 +233,6 @@ end
 assign o_y = temp_out2;
 assign o_valid = valid2;
 assign o_ready = ~(| full);
-//assign o_ready = i_ready;
  
 // End of your code
 
